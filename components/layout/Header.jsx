@@ -94,17 +94,21 @@ export default function Header() {
      
 
               
-  <SignInButton>
-  <Button variant="ghost" size="sm" className="flex items-center gap-2">
+ <SignedOut>
+        <SignInButton >
+             <Button variant="ghost" size="sm" className="flex items-center gap-2">
     <User className="h-4 w-4" />
-    <span>Sign in</span>
-  </Button>
-</SignInButton>
+  </Button> 
+        </SignInButton>
+      </SignedOut>
+  
+      <SignedIn>
+        <UserButton />
+      </SignedIn>
 
 
-             {/* <Button variant="ghost" size="icon" className="md:hidden">
-              <User className="h-5 w-5" />
-            </Button>  */}
+
+         
 
           </div>
         </div>
