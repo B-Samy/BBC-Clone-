@@ -33,7 +33,7 @@ export default function HeroSection() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
         {/* Hero Article */}
         <div className="lg:col-span-8 bg-card rounded-lg overflow-hidden border shadow-sm hover:shadow-md transition-shadow duration-200">
-          <Link href={`/news/${heroArticle.slug}`} className="block">
+          <Link href="/bloghouse" className="block">
             <div className="relative aspect-[16/9]">
               <Image 
                 
@@ -60,7 +60,7 @@ export default function HeroSection() {
         <div className="lg:col-span-4 space-y-4">
           {featuredArticles.map((article, index) => (
             <div key={index} className="bg-card rounded-lg overflow-hidden border shadow-sm hover:shadow-md transition-shadow duration-200">
-              <Link href={`/news/${article.slug}`} className="block">
+              <Link href="/figma" className="block">
                 <div className="relative aspect-[16/9]">
                   <Image 
                     src={article.image} 
