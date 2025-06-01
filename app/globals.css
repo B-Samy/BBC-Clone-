@@ -107,3 +107,427 @@
     to { transform: translateY(0); opacity: 1; }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.blogshouttext {
+  text-align: center;
+  /* center the text inside */
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  /* some horizontal padding for small screens */
+}
+
+.blogshouttext h1 {
+  font-size: 2.5rem;
+  /* make it big */
+  font-weight: 700;
+  line-height: 1.2;
+  /* color: #111827; */
+  /* color: #df1211; */
+  color: #999;
+  /* dark gray/black */
+  max-width: 800px;
+  margin: 0 auto;
+  /* center block element horizontally */
+}
+
+
+.blogshoutimg {
+  max-width: 650px;
+  margin: 2rem auto;
+  text-align: start;
+  padding: 0 1rem;
+}
+
+.blogshoutimg img {
+  border-radius: 1vw;
+}
+
+
+
+.blogshoutimg p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #999;
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.blogguide {
+  max-width: 650px;
+  /* limit width for readability */
+  margin: 2rem auto;
+  /* center container horizontally */
+  padding: 0 1rem;
+  text-align: justify;
+  /* justify text for neat edges */
+  color: #999;
+  font-size: 1.125rem;
+  /* comfy reading size */
+  line-height: 1.6;
+  /* good line spacing */
+}
+
+.blogguide ul {
+  padding-left: 1.5rem;
+  /* standard list indent */
+  margin: 0;
+}
+
+.blogguide li {
+  margin-bottom: 1rem;
+  text-align: start;
+  /* align list text left */
+  color: #999;
+}
+
+
+
+.textfield {
+  max-width: 700px;
+  /* limits width for readability */
+  margin: 2rem auto;
+  /* center container horizontally */
+  padding: 0 1rem;
+  color: #999;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.textfield h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: #999;
+}
+
+.textfield p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  white-space: pre-line;
+  /* respects line breaks in the text */
+  text-align: left;
+  color: #999;
+}
+
+
+
+
+
+.blogtable {
+  max-width: 800px;
+  /* limit width for readability */
+  margin: 3rem auto;
+  /* center container horizontally with vertical spacing */
+  padding: 0 1rem;
+  text-align: center;
+  /* center the heading and paragraph */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #999;
+}
+
+.blogtable h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #999;
+}
+
+.blogtable p {
+  font-size: 1.125rem;
+  margin-bottom: 0.75rem;
+  color: #999;
+  text-align: start;
+}
+
+.blogtable b {
+  display: block;
+  margin: 1rem 0 1.5rem 0;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #999;
+  text-align: start;
+}
+
+/* Table wrapper for horizontal scroll on small screens */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* Table styles */
+.benefits-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  table-layout: fixed;
+  min-width: 600px;
+  /* keep table wide enough */
+  font-size: 1rem;
+  text-align: left;
+  /* left-align text inside cells */
+}
+
+.benefits-table th,
+.benefits-table td {
+  border: 1px solid #999;
+  padding: 12px 16px;
+  vertical-align: middle;
+}
+
+.benefits-table thead {
+  background-color: #999;
+  /* light gray background */
+  font-weight: 600;
+  color: #111827;
+}
+
+
+.benefits-table td:first-child {
+  width: 35%;
+  /* wider first column */
+  white-space: nowrap;
+  /* keep emoji + text on one line */
+}
+
+.benefits-table th:first-child {
+  width: 35%;
+}
+
+
+
+
+
+.blogdesign {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #999;
+}
+
+.blogdesign h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #999;
+}
+
+.blogdesign p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  text-align: left;
+  color: #999;
+}
+
+.blog-ol ol {
+  counter-reset: step;
+  padding-left: 1.5rem;
+  margin-top: 2rem;
+  color: #999;
+}
+
+.blog-ol ol>li {
+  counter-increment: step;
+  margin-bottom: 2rem;
+  position: relative;
+  padding-left: 2rem;
+  color: #999;
+}
+
+.blog-ol ol>li::before {
+  content: counter(step) ". ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 700;
+  color: #3b82f6;
+  /* blue number */
+  font-size: 1.125rem;
+}
+
+.blog-ol li strong {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #999;
+}
+
+.blog-ol ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.blog-ol ul li {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  color: #999;
+}
+
+
+
+
+.blog-thoughts {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #999;
+  /* dark gray */
+}
+
+.toolkit-heading {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #999;
+}
+
+.toolkit-category {
+  margin-bottom: 2rem;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2563eb;
+  /* nice blue */
+  margin-bottom: 0.75rem;
+  text-align: left;
+}
+
+.subcategory-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #999;
+  /* gray */
+  margin: 1rem 0 0.5rem;
+  text-align: left;
+}
+
+.tool-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tool-list li {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.note {
+  color: #999;
+  /* lighter gray */
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-left: 0.25rem;
+}
+
+
+
+/* tables tag  */
+
+/* a guide to figma  */
+
+
+.figma-guide {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  line-height: 1.6;
+  color: #999;
+}
+
+.figma-guide h1 {
+  font-size: 2.7rem;
+  /* Slightly larger */
+  margin-bottom: 1rem;
+  color: #999;
+}
+
+.figma-guide img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.figma-guide .intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #999;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+  text-align: left;
+}
+
+.section h2 {
+  font-size: 1.7rem;
+  color: #2b2b2b;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  margin-bottom: 1rem;
+  color: #999;
+}
+
+.section ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.section ul li {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+  text-align: left;
+  color: #999;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  border-top: 1px solid #ddd;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  font-style: italic;
+  font-size: 1rem;
+  color: #999;
+}
