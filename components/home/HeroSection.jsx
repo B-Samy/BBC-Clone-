@@ -33,7 +33,7 @@ export default function HeroSection() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
         {/* Hero Article */}
         <div className="lg:col-span-8 bg-card rounded-lg overflow-hidden border shadow-sm hover:shadow-md transition-shadow duration-200">
-          <Link href="/figma" className="block">
+          <Link href="/bloghouse" className="block">
             <div className="relative aspect-[16/9]">
               <Image 
                 
